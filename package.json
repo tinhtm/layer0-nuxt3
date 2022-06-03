@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "layer0:init": "layer0 init",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "name": "magento-nuxt",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@layer0/cli": "^4.13.13",
+    "@layer0/core": "^4.13.13",
+    "@layer0/devtools": "^4.13.13",
+    "@layer0/nuxt3": "^4.13.13",
+    "@layer0/prefetch": "^4.13.13",
+    "@nuxtjs/tailwindcss": "^5.1.2",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "nuxt": "^3.0.0-rc.3"
+  },
+  "dependencies": {
+    "nuxt3": "latest",
+    "@splidejs/vue-splide": "^0.6.6"
+  }
+}
